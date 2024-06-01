@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import SinglePageApplication from "./SinglePageApplication";
+import ES6 from "./ES6";
+import Compilers from "./Compilers";
+import Bundlers from "./Bundlers";
+import PackageManagers from "./PackageManagers";
+import CDN from "./CDN";
+import JSX from "./JSX";
+import Elements from "./Elements";
+import Components from "./Components";
+import Props from "./Props";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Glossary of React Terms</h1>
+      <SinglePageApplication />
+      <ES6 />
+      <Compilers />
+      <Bundlers />
+      <PackageManagers />
+      <CDN />
+      <JSX />
+      <Elements />
+      <Components />
+      <Props />
     </div>
   );
 }
